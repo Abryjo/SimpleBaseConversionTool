@@ -493,6 +493,3 @@ while running == True:
                         solved = hexToBin(xNum)
                     elif xOpt == "--hto":
                         solved = hexToOct(xNum)
-                    if x == ["exit","Exit","EXIT", "quit", "Quit", "QUIT"]:
-                        running = False
-                        solved = True
